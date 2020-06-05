@@ -1,0 +1,58 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0 32px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        margin: auto;
+        width: 50%;
+    }
+    
+    .data {
+        padding: 16px;
+    }
+    
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+    
+    img.avatar {
+        width: 20%;
+        border-radius: 50%;
+    }
+    
+    #actions {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #nameForm,
+    #lastNameForm {
+        color: rgb(97, 97, 100);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    button {
+        background-color: #c7b93e;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10%;
+    }
+    
+    button:hover {
+        background-color: #b6a938;
+    }
